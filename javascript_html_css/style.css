@@ -1,0 +1,22 @@
+
+    .div1Class{
+        background-color: rgba(151, 24, 255, 0.438);
+        max-width: 50%;
+        border: 100px;
+        border-radius: 10px;
+        border-color: rgb(0, 0, 0);
+    }
+    .bodyClass{
+        background-color: rgb(130, 163, 255);
+    }
+
+    .principal{
+        background-color: rgba(155, 0, 147, 0.144);
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        flex-direction: row;
+    }

@@ -8,3 +8,13 @@ git commit -m "nome do commit"
 git push
 //extensões
 git graph - rastreia o histórico do repositório
+//tamanhos
+    <!-- <h1>testesinho</h1>
+    <h2>testinho</h2>
+    <h3>teste</h3>
+    <h4>testao</h4>
+    <h5>otr teste</h5>
+    <h6>acho q é o ultimo?</h6>
+    <p>paragrago</p> -->
+    //comentar
+    ctrl + :
