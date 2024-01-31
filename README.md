@@ -6,3 +6,5 @@ git add.
 git commit -m "nome do commit"
 //comando para subir pro rep remoto
 git push
+//extensões
+git graph - rastreia o histórico do repositório
