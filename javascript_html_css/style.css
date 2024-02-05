@@ -1,22 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+    overflow-y: auto;
+    padding: 50px;
+    background-image: linear-gradient(to right,#0c0020, #2c0072, #4600b6,#9350ff,#9350ff,#9350ff,#4600b6, #2c0072,#0c0020);
+}
 
-    .div1Class{
-        background-color: rgba(151, 24, 255, 0.438);
-        max-width: 50%;
-        border: 100px;
-        border-radius: 10px;
-        border-color: rgb(0, 0, 0);
-    }
-    .bodyClass{
-        background-color: rgb(130, 163, 255);
-    }
+.primeiraDivClass{
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
 
-    .principal{
-        background-color: rgba(155, 0, 147, 0.144);
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-        flex-direction: row;
-    }
+h1{
+    width: 50%;
+    border-bottom: 5px solid lightgrey;
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.parag{
+    padding-top: 10px;
+}
+
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+.cards{
+    width: 200px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    box-shadow: rgba(89, 0, 255, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    background-color: #101010;
+    border: 3px solid #101010;
+    background-color: #dfcbff;
+}
+
+.columnLabelWithInput{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+button{
+    background-color: #3560b0;
+    border: none;
+    border-radius:20px ;
+    padding: 10px;
+    opacity: 0.8;
+    transition: all 200ms linear;
+    font-size: 0.8rem;
+    color: #ffff;
+    font-weight: 900;
+}
+
+button:hover{
+    transition: all 200ms linear;
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.inputs-style{
+ height: 20px;
+ padding: 10px;
+ border-radius: 10px;
+ border: none;
+ background-color: lightgray;
+}
+
+.inputs-style:focus{
+  font-weight: 900;
+  border: 2px solid #3560b0;
+}
