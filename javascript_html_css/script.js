@@ -29,6 +29,6 @@ function med3(){
     var respMed3 = (num10 + num11 + num12)/3
     document.getElementById("resMed3").textContent = respMed3.toFixed(2);
 }
-function clear(){
+function limpar(){
     window.location.reload();
 }
