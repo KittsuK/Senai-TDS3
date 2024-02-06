@@ -28,6 +28,21 @@ function med3(){
     var num12 = document.getElementById("num12").valueAsNumber;
     var respMed3 = (num10 + num11 + num12)/3
     document.getElementById("resMed3").textContent = respMed3.toFixed(2);
+
+    var aproved = document.getElementById("cond");
+    var fail = document.getElementById("condN");
+    var x = document.getElementById("resMed3");
+    var y = document.getElementById("cond");
+    var z = document.getElementById("condN");
+    if(respMed3>7){
+        x.style.color = "green"
+        y.style.display = "block"
+        z.style.display = "none"
+    }else{
+        x.style.color = "red"
+        z.style.display = "block"
+        y.style.display = "none"
+    }
 }
 function limpar(){
     window.location.reload();
